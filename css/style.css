@@ -1,0 +1,20 @@
+.hero {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  min-height: 80vh;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.service-card {
+  transition: all 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+footer {
+  background: #222;
+  color: #ddd;
+  padding: 30px 0;
+}
